@@ -8,9 +8,7 @@ Z Creative Corp
 
 Zan Ye Htet  (zxxngod) 
 
-CreatiScientist | C.E.O of Z Creative C![zan](https://github.com/zxxngod/Zan/assets/167812843/a5e29c54-28ea-4aa3-8118-caff17f69a98)
-![repository-open-graph-template](https://github.com/zxxngod/Zan/assets/167812843/9701a06d-856f-4fb4-a0ac-deb6658bb1d7)
-orporation   
+CreatiScientist | C.E.O of Z Creative Corporation   
 
 Bangkok, Thailand   
 
