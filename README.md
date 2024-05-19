@@ -1,6 +1,6 @@
 # Zan
 Creator
-https://1drv.ms/w/s!Aqpqu9RZJY7ogRJe4qEC1gNOfLuV?e=2YVRaq
+
 Z Creative Corp 
  --- 
 
