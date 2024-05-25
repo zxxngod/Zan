@@ -92,48 +92,6 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 
 - Played a key role in pioneering the music industry in Myanmar. 
 
-  2024 Portfolio 
-## **Portfolio**
-
-### **AI Projects**
-
-1. **AI-Powered Fashion Assistant**
-   - Developed an intelligent virtual assistant that provides personalized fashion recommendations based on user preferences and behavior.
-   - Utilized natural language processing (NLP) and machine learning algorithms to enhance user interactions.
-
-2. **Smart Fabric Technology**
-   - Contributed to the research and development of smart fabrics that adapt to environmental changes (temperature, humidity) and enhance wearer comfort.
-   - Collaborated with material scientists and designers to integrate technology seamlessly into textiles.
-
-### **Software Development**
-
-1. **Fashion Inventory Management System**
-   - Designed and implemented a web-based inventory management system for tracking fashion products.
-   - Leveraged Python (Django) and database management to create a user-friendly interface.
-
-2. **Fashion Recommender System**
-   - Built a recommendation engine that suggests personalized fashion items based on user browsing history and preferences.
-   - Utilized collaborative filtering and content-based filtering techniques.
-
-### **Design and Creativity**
-
-1. **Cosmic Cloak Concept Art**
-   - Illustrated a series of cosmic-inspired cloak designs, blending elements of galaxies, stars, and futuristic aesthetics.
-   - Experimented with color palettes and visual storytelling.
-
-2. **Fashion Photography**
-   - Captured high-quality images of fashion products for marketing campaigns and social media.
-   - Focused on composition, lighting, and conveying brand identity.
-
-### **Hackathons and Side Projects**
-
-1. **AI Art Generator**
-   - Participated in a hackathon to create an AI-powered art generator that produces unique digital artworks.
-   - Explored generative adversarial networks (GANs) and style transfer techniques.
-
-2. **Fashion Blog**
-   - Maintained a personal fashion blog, sharing insights on trends, styling tips, and industry news.
-   - Showcased creativity in writing and visual content.
 
 
  Skills 
