@@ -1,7 +1,7 @@
 # Zan XX
-Artist, Creator, Designer and Entreprenur
+Artist, AI Artisan, Creator, Creative Director, CreatiScientist, Fashion Designer, Journalist and Entreprenur.
 
-Z Creative Corp 
+Z Creative Corporation 
  --- 
 
   
