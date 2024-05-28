@@ -98,6 +98,8 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 
  Skills 
 
+- Archetype
+
 - Architecture 
 
 - Artistic Direction 
@@ -132,6 +134,6 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 
 - Psychology
 
-- Celestial navigator
+- Celestial Navigator
 
 - Cosmic Story Teller
