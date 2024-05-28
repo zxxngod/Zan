@@ -132,6 +132,6 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 
 - Psychology
 
-- Star Navigating
+- Celestial navigator
 
 - Cosmic Story Teller
