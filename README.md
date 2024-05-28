@@ -52,7 +52,9 @@ November 2023 - Present
 
   - Astragenix: Engineering Warehouse 
 
-  - Zybernex: Central Hub of Innovation and Futuristic Business House 
+  - Zybernex: Central Hub of Innovation and Futuristic Business House
+    
+  - ChronoNebula: AI x Fashion Brand
 
 - Lead multidisciplinary projects and teams to deliver innovative solutions across various industries. 
 
@@ -102,7 +104,9 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 
 - AI Artistry 
 
-- Creative Content Creation 
+- Creative Content Creation
+
+- CreatiScientist
 
 - Fashion Design 
 
@@ -121,3 +125,13 @@ LITT Entertainment (First Generation Entertainment Music Record Label)
 - Entrepreneurship 
 
 - Scientific Research 
+
+- Python Coding
+
+- Philosophy
+
+- Psychology
+
+- Star Navigating
+
+- Cosmic Story Teller
