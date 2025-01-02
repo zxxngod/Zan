@@ -1,0 +1,88 @@
+class CyberElf:
+    def __init__(self, name, power_level):
+        self.__name = name  # Private attribute
+        self.__power_level = power_level  # Private attribute
+
+    def get_name(self):
+        return self.__name
+
+    def set_power_level(self, power):
+        if power > 0:
+            self.__power_level = power
+        else:
+            print("Power level must be positive.")
+
+    def get_power_level(self):
+        return self.__power_level
+
+# Example usage
+elf = CyberElf("Lumina", 9000)
+print(elf.get_name())  # Output: Lumina
+elf.set_power_level(9500)
+print(elf.get_power_level())  # Output: 9500
+
+import numpy as np
+
+class QuantumParticle:
+    def __init__(self, states):
+        self.states = states
+        self.probabilities = np.ones(len(states)) / len(states)
+
+    def measure(self):
+        return np.random.choice(self.states, p=self.probabilities)
+
+# Example usage
+particle = QuantumParticle(["State1", "State2", "State3"])
+print(particle.measure())  # Randomly outputs one of the states
+
+import secrets
+
+class QuantumKeyDistribution:
+    def __init__(self):
+        self.key = None
+
+    def generate_key(self, length):
+        self.key = ''.join(secrets.choice('01') for _ in range(length))
+        return self.key
+
+    def encrypt_message(self, message):
+        if not self.key:
+            raise ValueError("Key not generated.")
+        encrypted = ''.join(str(int(m) ^ int(k)) for m, k in zip(message, self.key))
+        return encrypted
+
+    def decrypt_message(self, encrypted_message):
+        if not self.key:
+            raise ValueError("Key not generated.")
+        decrypted = ''.join(str(int(e) ^ int(k)) for e, k in zip(encrypted_message, self.key))
+        return decrypted
+
+# Example usage
+qkd = QuantumKeyDistribution()
+key = qkd.generate_key(8)
+print("Generated Key:", key)
+message = "11001010"
+encrypted_message = qkd.encrypt_message(message)
+print("Encrypted Message:", encrypted_message)
+decrypted_message = qkd.decrypt_message(encrypted_message)
+print("Decrypted Message:", decrypted_message)
+
+from PIL import Image, ImageDraw, ImageFont
+
+class AIArtGenerator:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+        self.image = Image.new('RGB', (width, height), 'black')
+        self.draw = ImageDraw.Draw(self.image)
+
+    def generate_art(self, text):
+        font = ImageFont.load_default()
+        self.draw.text((10, 10), text, font=font, fill='white')
+        return self.image
+
+# Example usage
+art_generator = AIArtGenerator(200, 100)
+image = art_generator.generate_art("Cyber-Elf")
+image.show()
+
