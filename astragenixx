@@ -1,0 +1,40 @@
+class CosmicEntity:
+    def __init__(self, name, abilities, energy):
+        self.name = name
+        self.abilities = abilities
+        self.energy = energy
+
+    def describe(self):
+        return f"{self.name} with abilities: {self.abilities} and energy: {self.energy}"
+
+class Fusion:
+    def __init__(self, entities):
+        self.entities = entities
+        self.fusion_name = "Chrononebula Fusion"
+        self.fusion_abilities = self.combine_abilities()
+        self.fusion_energy = self.combine_energy()
+
+    def combine_abilities(self):
+        abilities = []
+        for entity in self.entities:
+            abilities.extend(entity.abilities)
+        return abilities
+
+    def combine_energy(self):
+        return sum(entity.energy for entity in self.entities)
+
+    def describe_fusion(self):
+        entity_names = ", ".join([entity.name for entity in self.entities])
+        return f"{self.fusion_name} created by fusing {entity_names} with abilities: {self.fusion_abilities} and total energy: {self.fusion_energy}"
+
+# Create instances of the artists and the Black Chronoa Clan
+lisa = CosmicEntity("Lisa", ["Dynamic Dance Moves", "Radiant Energy"], 90)
+raye = CosmicEntity("RAYE", ["Soulful Vocals", "Ethereal Light"], 85)
+doja_cat = CosmicEntity("Doja Cat", ["Genre-Blending Rap", "Playful Energy"], 88)
+black_chronoa_clan = CosmicEntity("Black Chronoa Clan", ["Shadow Warfare", "Quantum Technology"], 95)
+
+# Create the fusion
+cosmic_fusion = Fusion([lisa, raye, doja_cat, black_chronoa_clan])
+
+# Describe the fusion
+print(cosmic_fusion.describe_fusion())
